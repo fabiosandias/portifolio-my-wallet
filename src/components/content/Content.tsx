@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import { Container } from './Styles';
 
-const Content = () => {
+const Content: FunctionComponent = ({ children }) => {
   return (
       <Container>
-          <h1>Content</h1>
+          { children }
       </Container>
   );
 }

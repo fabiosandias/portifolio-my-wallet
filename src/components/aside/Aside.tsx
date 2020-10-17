@@ -4,8 +4,9 @@ import {
   MdDashboard,
   MdArrowDownward,
   MdArrowUpward,
-  MdExitToApp, MdArrowDropUp
+  MdExitToApp
 } from 'react-icons/md';
+
 import {
   Container,
   Header,

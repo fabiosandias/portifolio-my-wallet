@@ -4,12 +4,17 @@ import MainHeader from '../main-header/MainHeader';
 import Aside from '../aside/Aside';
 import Content from '../content/Content';
 
-const Layout = () => {
+
+interface layoutProps {}
+
+const Layout: React.FunctionComponent = ({ children }) => {
   return (
       <Grid>
           <MainHeader />
           <Aside />
-          <Content />
+          <Content>
+            { children }
+          </Content>
       </Grid>
   )
 }
