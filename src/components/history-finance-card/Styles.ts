@@ -37,7 +37,10 @@ export const Container = styled.li<ContainerProps>`
         padding-left: 10px;
     }
 
-    > div span {}
+    > div span {
+        font-weight: bold;
+        font-size: 22px;
+    }
 `;
 
 export const Tag = styled.div<TagProps>`
